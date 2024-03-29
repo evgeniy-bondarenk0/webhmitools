@@ -1,0 +1,11 @@
+{
+  "name": "webhmitools",
+  "version": "1.0.0",
+  "description": "Tools for parse TIA portal data for FUXA web SCADA.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Yevhenii Bondarenko",
+  "license": "ISC"
+}
