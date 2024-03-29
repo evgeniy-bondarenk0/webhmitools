@@ -7,6 +7,7 @@ const jsonfolder = './jsondir/';
 
 // console.log(dbAddr);
 
+
 var objects = {}; // Об'єкт з усіма знайденими DB
 
 const directoryPath = path.join(__dirname, dbfolder);
