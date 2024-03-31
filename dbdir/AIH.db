@@ -1,0 +1,78 @@
+﻿DATA_BLOCK "AIH"
+{ S7_Optimized_Access := 'FALSE' }
+VERSION : 0.1
+NON_RETAIN
+   STRUCT 
+      HBK10_CT004 : "AIVAR_HMI";   // Температура газів перед батарейним циклоном {CJF01}
+      HFB11_CT001 : "AIVAR_HMI";   // Температура перед шнек палива 1 (лівий) {CJF01}
+      HFB12_CT001 : "AIVAR_HMI";   // Температура перед трансопортером палива Т1 (лівий) {CJF01}
+      REZAI_CJF01_MOD1_CH3 : "AIVAR_HMI";   // Резерв AI, рейка CJF01, модуль 1, канал 3 {CJF01}
+      LAB10_CT001 : "AIVAR_HMI";   // Температура води після економайзера {CJF01}
+      HFB21_CT001 : "AIVAR_HMI";   // Температура перед шнек палива 2 (правий) {CJF01}
+      HFB22_CT001 : "AIVAR_HMI";   // Температура перед трансопортером палива Т2 (правий) {CJF01}
+      REZAI_CJF01_MOD2_CH3 : "AIVAR_HMI";   // Резерв AI, рейка CJF01, модуль 2, канал 3 {CJF01}
+      HNA10_CT001 : "AIVAR_HMI";   // Температура газів перед димососом {CJF01}
+      HNC10_CT001 : "AIVAR_HMI";   // Темп. Підшипника 1 димососа 1 {CJF01}
+      HNC20_CT001 : "AIVAR_HMI";   // Темп. Підшипника 1 димососа 2 {CJF01}
+      REZAI_CJF01_MOD3_CH3 : "AIVAR_HMI";   // Резерв AI, рейка CJF01, модуль 3, канал 3 {CJF01}
+      REZAI_CJF01_MOD4_CH0 : "AIVAR_HMI";   // Резерв AI, рейка CJF01, модуль 4, канал 0 {CJF01}
+      HNC10_CT002 : "AIVAR_HMI";   // Темп. Підшипника 2 димососа 1 {CJF01}
+      HNC20_CT002 : "AIVAR_HMI";   // Темп. Підшипника 2 димососа 2 {CJF01}
+      REZAI_CJF01_MOD4_CH3 : "AIVAR_HMI";   // Резерв AI, рейка CJF01, модуль 4, канал 3 {CJF01}
+      HAD10_CL001 : "AIVAR_HMI";   // Рівень №1 в барабані котла {CJF01}
+      HAD10_CP001 : "AIVAR_HMI";   // Тиск в барабані №1 {CJF01}
+      HBK10_CT001 : "AIVAR_HMI";   // Температура газів в топці т.1 {CJF01}
+      LBA10_CF001 : "AIVAR_HMI";   // Витрата пари {CJF01}
+      HLA10_CP001 : "AIVAR_HMI";   // Тиск первинного повітря за ДВ-1 {CJF01}
+      LAB10_CF001 : "AIVAR_HMI";   // Витрата живильної води {CJF01}
+      HBK10_CP001 : "AIVAR_HMI";   // Розрідження №1 в топці {CJF01}
+      HNA10_CP001 : "AIVAR_HMI";   // Розрідження перед батарейним циклоном {CJF01}
+      HAD10_CL002 : "AIVAR_HMI";   // Рівень №2 в барабані котла {CJF01}
+      HAD10_CP002 : "AIVAR_HMI";   // Тиск в барабані №2 {CJF01}
+      HBK10_CT002 : "AIVAR_HMI";   // Температура газів в топці т.2 {CJF01}
+      LAB10_CP001 : "AIVAR_HMI";   // Тиск живильної води перед вузлом живлення {CJF01}
+      HLA20_CP001 : "AIVAR_HMI";   // Тиск вторинного повітря за ДВ-2 {CJF01}
+      HLA10_CF001 : "AIVAR_HMI";   // Витрата первинного повітря {CJF01}
+      HBK10_CP002 : "AIVAR_HMI";   // Розрідження №2 в топці {CJF01}
+      HNA10_CP002 : "AIVAR_HMI";   // Розрідження перед димососом {CJF01}
+      HAD10_CL003 : "AIVAR_HMI";   // Рівень №3 в барабані котла {CJF01}
+      HBK10_CT003 : "AIVAR_HMI";   // Темп. газів перед конвективним пучком {CJF01}
+      HBK10_CT005 : "AIVAR_HMI";   // Температура газів перед економайзером {CJF01}
+      HCB01_CP001 : "AIVAR_HMI";   // Тиск стисненого повітря (повітря на обдувку) {CJF01}
+      REZAI_CJF01_MOD7_CH4 : "AIVAR_HMI";   // Резерв AI, рейка CJF01, модуль 7, канал 4 {CJF01}
+      HAD10_AA101_POS : "AIVAR_HMI";   // Положення РО. Клапан неперевної продувки {CJF01}
+      LAB10_AA001_POS : "AIVAR_HMI";   // Положення РО. Живильний клапан {CJF01}
+      REZAI_CJF01_MOD7_CH7 : "AIVAR_HMI";   // Резерв AI, рейка CJF01, модуль 7, канал 7 {CJF01}
+      HNC10_AF001_SPD : "AIVAR_HMI";   // Положення РО. Димосос ДН1 {CJF01}
+      HNC10_AF001_CUR : "AIVAR_HMI";   // Струм. Димосос ДН1 {CJF01}
+      HLA10_AF001_SPD : "AIVAR_HMI";   // Положення РО. Вентилятор первинного дуття ДВ1 {CJF01}
+      HLA10_AF001_CUR : "AIVAR_HMI";   // Струм. Вентилятор первинного дуття ДВ1 {CJF01}
+      EKG10_AN001_CUR : "AIVAR_HMI";   // Струм. Вентилятор закиду палива {CJF01}
+      HFB11_AF001_SPD : "AIVAR_HMI";   // Положення РО. Шнек подачі палива №1 {CJF01}
+      HFB21_AF001_SPD : "AIVAR_HMI";   // Положення РО. Шнек подачі палива №2 {CJF01}
+      REZAI_CJF01_MOD8_CH7 : "AIVAR_HMI";   // Резерв AI, рейка CJF01, модуль 8, канал 7 {CJF01}
+      HNC20_AF001_SPD : "AIVAR_HMI";   // Положення РО. Димосос ДН2 {CJF01}
+      HNC20_AF001_CUR : "AIVAR_HMI";   // Струм. Димосос ДН2 {CJF01}
+      HLA20_AF001_SPD : "AIVAR_HMI";   // Положення РО. Вентилятор вторинного дуття ДВ2 {CJF01}
+      HLA20_AF001_CUR : "AIVAR_HMI";   // Струм. Вентилятор вторинного дуття ДВ2 {CJF01}
+      HFB12_AF001_SPD : "AIVAR_HMI";   // Положення РО. Транспортер подачі палива №1 {CJF01}
+      HFB22_AF001_SPD : "AIVAR_HMI";   // Положення РО. Транспортер подачі палива №2 {CJF01}
+      EKG11_AF001_SPD : "AIVAR_HMI";   // Положення РО. Пульсатор {CJF01}
+      REZAI_CJF01_MOD9_CH7 : "AIVAR_HMI";   // Резерв AI, рейка CJF01, модуль 9, канал 7 {CJF01}
+      LAB01_AP001_SPD : "AIVAR_HMI";   // Положення РО. Живильний насос №1 {CJF01}
+      LAB02_AP002_SPD : "AIVAR_HMI";   // Положення РО. Живильний насос №2 {CJF01}
+      HNC10_GT001 : "AIVAR_HMI";   // Вібрація підшипника №1 димососа А {CJF01}
+      HNC10_GT002 : "AIVAR_HMI";   // Вібрація підшипника №2 димососа А {CJF01}
+      HNC20_GT001 : "AIVAR_HMI";   // Вібрація підшипника №1 димососа B {CJF01}
+      HNC20_GT002 : "AIVAR_HMI";   // Вібрація підшипника №2 димососа B {CJF01}
+      REZAI_CJF01_MOD10_CH6 : "AIVAR_HMI";   // Резерв AI, рейка CJF01, модуль 10, канал 6 {CJF01}
+      REZAI_CJF01_MOD10_CH7 : "AIVAR_HMI";   // Резерв AI, рейка CJF01, модуль 10, канал 7 {CJF01}
+      NET_HFA10_CL001 : "AIVAR_HMI";   // Рівень лушпиння в бункері (мережа) {undefined}
+      NET_HFA10_CT001 : "AIVAR_HMI";   // Температура в бункері палива (мережа) {undefined}
+   END_STRUCT;
+
+
+BEGIN
+
+END_DATA_BLOCK
+
