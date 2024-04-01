@@ -26,35 +26,35 @@
     },
     "polling": 1000
   },
-  {
-    "id": "d_06bbf99f-451a4e83",
-    "property": {
-      "address": "127.0.0.1",
-      "port": null,
-      "slot": 1,
-      "rack": 0,
-      "baudrate": 9600,
-      "databits": 8,
-      "stopbits": 1,
-      "parity": "None"
-    },
-    "enabled": true,
-    "tags": {
-      "LAB10_AA101.STA": {
-        "id": "LAB10_AA101.STA",
-        "daq": {
-          "restored": false,
-          "enabled": false,
-          "changed": false,
-          "interval": 60
-        },
-        "name": "LAB10_AA101.STA",
-        "type": "DWord",
-        "address": "db5.dbw4"
-      }
-    },
-    "name": "S7",
-    "type": "SiemensS7",
-    "polling": 500
-  }
-]
+    {
+      "id": "d_06bbf99f-451a4e83",
+      "property": {
+        "address": "127.0.0.1",
+        "port": null,
+        "slot": 1,
+        "rack": 0,
+        "baudrate": 9600,
+        "databits": 8,
+        "stopbits": 1,
+        "parity": "None"
+      },
+      "enabled": true,
+      "tags": {
+        "LAB10_AA101.STA": {
+          "id": "LAB10_AA101.STA",
+          "daq": {
+            "restored": false,
+            "enabled": false,
+            "changed": false,
+            "interval": 60
+          },
+          "name": "LAB10_AA101.STA",
+          "type": "DWord",
+          "address": "db5.dbw4"
+        }
+      },
+      "name": "S7",
+      "type": "SiemensS7",
+      "polling": 500
+    }
+] 
