@@ -41,7 +41,7 @@
     "enabled": true,
     "tags": {
       "5AIH_HBK10_CT004_STA": {
-        "id": "5HBK10_CT004_STA",
+        "id": "5AIH_HBK10_CT004_STA",
         "daq": {
           "restored": false,
           "enabled": false,
@@ -54,7 +54,7 @@
         "description": "Температура газів перед батарейним циклоном {CJF01}"
       },
       "5AIH_HBK10_CT004_VAL": {
-        "id": "5HBK10_CT004_VAL",
+        "id": "5AIH_HBK10_CT004_VAL",
         "daq": {
           "restored": false,
           "enabled": false,
@@ -67,7 +67,7 @@
         "description": "Температура газів перед батарейним циклоном {CJF01}"
       },
       "5AIH_HFB11_CT001_STA": {
-        "id": "5HFB11_CT001_STA",
+        "id": "5AIH_HFB11_CT001_STA",
         "daq": {
           "restored": false,
           "enabled": false,
@@ -80,7 +80,7 @@
         "description": "Температура перед шнек палива 1 (лівий) {CJF01}"
       },
       "5AIH_HFB11_CT001_VAL": {
-        "id": "5HFB11_CT001_VAL",
+        "id": "5AIH_HFB11_CT001_VAL",
         "daq": {
           "restored": false,
           "enabled": false,
@@ -93,7 +93,7 @@
         "description": "Температура перед шнек палива 1 (лівий) {CJF01}"
       },
       "5AIH_HFB12_CT001_STA": {
-        "id": "5HFB12_CT001_STA",
+        "id": "5AIH_HFB12_CT001_STA",
         "daq": {
           "restored": false,
           "enabled": false,
@@ -106,7 +106,7 @@
         "description": "Температура перед трансопортером палива Т1 (лівий) {CJF01}"
       },
       "5AIH_HFB12_CT001_VAL": {
-        "id": "5HFB12_CT001_VAL",
+        "id": "5AIH_HFB12_CT001_VAL",
         "daq": {
           "restored": false,
           "enabled": false,
@@ -119,7 +119,7 @@
         "description": "Температура перед трансопортером палива Т1 (лівий) {CJF01}"
       },
       "5AIH_REZAI_CJF01_MOD1_CH3_STA": {
-        "id": "5REZAI_CJF01_MOD1_CH3_STA",
+        "id": "5AIH_REZAI_CJF01_MOD1_CH3_STA",
         "daq": {
           "restored": false,
           "enabled": false,
@@ -132,7 +132,7 @@
         "description": "Резерв AI, рейка CJF01, модуль 1, канал 3 {CJF01}"
       },
       "5AIH_REZAI_CJF01_MOD1_CH3_VAL": {
-        "id": "5REZAI_CJF01_MOD1_CH3_VAL",
+        "id": "5AIH_REZAI_CJF01_MOD1_CH3_VAL",
         "daq": {
           "restored": false,
           "enabled": false,
@@ -145,7 +145,7 @@
         "description": "Резерв AI, рейка CJF01, модуль 1, канал 3 {CJF01}"
       },
       "5AIH_LAB10_CT001_STA": {
-        "id": "5LAB10_CT001_STA",
+        "id": "5AIH_LAB10_CT001_STA",
         "daq": {
           "restored": false,
           "enabled": false,
@@ -158,7 +158,7 @@
         "description": "Температура води після економайзера {CJF01}"
       },
       "5AIH_LAB10_CT001_VAL": {
-        "id": "5LAB10_CT001_VAL",
+        "id": "5AIH_LAB10_CT001_VAL",
         "daq": {
           "restored": false,
           "enabled": false,
@@ -171,7 +171,7 @@
         "description": "Температура води після економайзера {CJF01}"
       },
       "5AIH_HFB21_CT001_STA": {
-        "id": "5HFB21_CT001_STA",
+        "id": "5AIH_HFB21_CT001_STA",
         "daq": {
           "restored": false,
           "enabled": false,
@@ -184,7 +184,7 @@
         "description": "Температура перед шнек палива 2 (правий) {CJF01}"
       },
       "5AIH_HFB21_CT001_VAL": {
-        "id": "5HFB21_CT001_VAL",
+        "id": "5AIH_HFB21_CT001_VAL",
         "daq": {
           "restored": false,
           "enabled": false,
@@ -197,7 +197,7 @@
         "description": "Температура перед шнек палива 2 (правий) {CJF01}"
       },
       "5AIH_HFB22_CT001_STA": {
-        "id": "5HFB22_CT001_STA",
+        "id": "5AIH_HFB22_CT001_STA",
         "daq": {
           "restored": false,
           "enabled": false,
@@ -210,7 +210,7 @@
         "description": "Температура перед трансопортером палива Т2 (правий) {CJF01}"
       },
       "5AIH_HFB22_CT001_VAL": {
-        "id": "5HFB22_CT001_VAL",
+        "id": "5AIH_HFB22_CT001_VAL",
         "daq": {
           "restored": false,
           "enabled": false,
@@ -223,7 +223,7 @@
         "description": "Температура перед трансопортером палива Т2 (правий) {CJF01}"
       },
       "5AIH_REZAI_CJF01_MOD2_CH3_STA": {
-        "id": "5REZAI_CJF01_MOD2_CH3_STA",
+        "id": "5AIH_REZAI_CJF01_MOD2_CH3_STA",
         "daq": {
           "restored": false,
           "enabled": false,
@@ -236,7 +236,7 @@
         "description": "Резерв AI, рейка CJF01, модуль 2, канал 3 {CJF01}"
       },
       "5AIH_REZAI_CJF01_MOD2_CH3_VAL": {
-        "id": "5REZAI_CJF01_MOD2_CH3_VAL",
+        "id": "5AIH_REZAI_CJF01_MOD2_CH3_VAL",
         "daq": {
           "restored": false,
           "enabled": false,
@@ -249,7 +249,7 @@
         "description": "Резерв AI, рейка CJF01, модуль 2, канал 3 {CJF01}"
       },
       "5AIH_HNA10_CT001_STA": {
-        "id": "5HNA10_CT001_STA",
+        "id": "5AIH_HNA10_CT001_STA",
         "daq": {
           "restored": false,
           "enabled": false,
@@ -262,7 +262,7 @@
         "description": "Температура газів перед димососом {CJF01}"
       },
       "5AIH_HNA10_CT001_VAL": {
-        "id": "5HNA10_CT001_VAL",
+        "id": "5AIH_HNA10_CT001_VAL",
         "daq": {
           "restored": false,
           "enabled": false,
@@ -275,7 +275,7 @@
         "description": "Температура газів перед димососом {CJF01}"
       },
       "5AIH_HNC10_CT001_STA": {
-        "id": "5HNC10_CT001_STA",
+        "id": "5AIH_HNC10_CT001_STA",
         "daq": {
           "restored": false,
           "enabled": false,
@@ -288,7 +288,7 @@
         "description": "Темп. Підшипника 1 димососа 1 {CJF01}"
       },
       "5AIH_HNC10_CT001_VAL": {
-        "id": "5HNC10_CT001_VAL",
+        "id": "5AIH_HNC10_CT001_VAL",
         "daq": {
           "restored": false,
           "enabled": false,
@@ -301,7 +301,7 @@
         "description": "Темп. Підшипника 1 димососа 1 {CJF01}"
       },
       "5AIH_HNC20_CT001_STA": {
-        "id": "5HNC20_CT001_STA",
+        "id": "5AIH_HNC20_CT001_STA",
         "daq": {
           "restored": false,
           "enabled": false,
@@ -314,7 +314,7 @@
         "description": "Темп. Підшипника 1 димососа 2 {CJF01}"
       },
       "5AIH_HNC20_CT001_VAL": {
-        "id": "5HNC20_CT001_VAL",
+        "id": "5AIH_HNC20_CT001_VAL",
         "daq": {
           "restored": false,
           "enabled": false,
@@ -327,7 +327,7 @@
         "description": "Темп. Підшипника 1 димососа 2 {CJF01}"
       },
       "5AIH_REZAI_CJF01_MOD3_CH3_STA": {
-        "id": "5REZAI_CJF01_MOD3_CH3_STA",
+        "id": "5AIH_REZAI_CJF01_MOD3_CH3_STA",
         "daq": {
           "restored": false,
           "enabled": false,
@@ -340,7 +340,7 @@
         "description": "Резерв AI, рейка CJF01, модуль 3, канал 3 {CJF01}"
       },
       "5AIH_REZAI_CJF01_MOD3_CH3_VAL": {
-        "id": "5REZAI_CJF01_MOD3_CH3_VAL",
+        "id": "5AIH_REZAI_CJF01_MOD3_CH3_VAL",
         "daq": {
           "restored": false,
           "enabled": false,
@@ -353,7 +353,7 @@
         "description": "Резерв AI, рейка CJF01, модуль 3, канал 3 {CJF01}"
       },
       "5AIH_REZAI_CJF01_MOD4_CH0_STA": {
-        "id": "5REZAI_CJF01_MOD4_CH0_STA",
+        "id": "5AIH_REZAI_CJF01_MOD4_CH0_STA",
         "daq": {
           "restored": false,
           "enabled": false,
@@ -366,7 +366,7 @@
         "description": "Резерв AI, рейка CJF01, модуль 4, канал 0 {CJF01}"
       },
       "5AIH_REZAI_CJF01_MOD4_CH0_VAL": {
-        "id": "5REZAI_CJF01_MOD4_CH0_VAL",
+        "id": "5AIH_REZAI_CJF01_MOD4_CH0_VAL",
         "daq": {
           "restored": false,
           "enabled": false,
@@ -379,7 +379,7 @@
         "description": "Резерв AI, рейка CJF01, модуль 4, канал 0 {CJF01}"
       },
       "5AIH_HNC10_CT002_STA": {
-        "id": "5HNC10_CT002_STA",
+        "id": "5AIH_HNC10_CT002_STA",
         "daq": {
           "restored": false,
           "enabled": false,
@@ -392,7 +392,7 @@
         "description": "Темп. Підшипника 2 димососа 1 {CJF01}"
       },
       "5AIH_HNC10_CT002_VAL": {
-        "id": "5HNC10_CT002_VAL",
+        "id": "5AIH_HNC10_CT002_VAL",
         "daq": {
           "restored": false,
           "enabled": false,
@@ -405,7 +405,7 @@
         "description": "Темп. Підшипника 2 димососа 1 {CJF01}"
       },
       "5AIH_HNC20_CT002_STA": {
-        "id": "5HNC20_CT002_STA",
+        "id": "5AIH_HNC20_CT002_STA",
         "daq": {
           "restored": false,
           "enabled": false,
@@ -418,7 +418,7 @@
         "description": "Темп. Підшипника 2 димососа 2 {CJF01}"
       },
       "5AIH_HNC20_CT002_VAL": {
-        "id": "5HNC20_CT002_VAL",
+        "id": "5AIH_HNC20_CT002_VAL",
         "daq": {
           "restored": false,
           "enabled": false,
@@ -431,7 +431,7 @@
         "description": "Темп. Підшипника 2 димососа 2 {CJF01}"
       },
       "5AIH_REZAI_CJF01_MOD4_CH3_STA": {
-        "id": "5REZAI_CJF01_MOD4_CH3_STA",
+        "id": "5AIH_REZAI_CJF01_MOD4_CH3_STA",
         "daq": {
           "restored": false,
           "enabled": false,
@@ -444,7 +444,7 @@
         "description": "Резерв AI, рейка CJF01, модуль 4, канал 3 {CJF01}"
       },
       "5AIH_REZAI_CJF01_MOD4_CH3_VAL": {
-        "id": "5REZAI_CJF01_MOD4_CH3_VAL",
+        "id": "5AIH_REZAI_CJF01_MOD4_CH3_VAL",
         "daq": {
           "restored": false,
           "enabled": false,
@@ -457,7 +457,7 @@
         "description": "Резерв AI, рейка CJF01, модуль 4, канал 3 {CJF01}"
       },
       "5AIH_HAD10_CL001_STA": {
-        "id": "5HAD10_CL001_STA",
+        "id": "5AIH_HAD10_CL001_STA",
         "daq": {
           "restored": false,
           "enabled": false,
@@ -470,7 +470,7 @@
         "description": "Рівень №1 в барабані котла {CJF01}"
       },
       "5AIH_HAD10_CL001_VAL": {
-        "id": "5HAD10_CL001_VAL",
+        "id": "5AIH_HAD10_CL001_VAL",
         "daq": {
           "restored": false,
           "enabled": false,
@@ -483,7 +483,7 @@
         "description": "Рівень №1 в барабані котла {CJF01}"
       },
       "5AIH_HAD10_CP001_STA": {
-        "id": "5HAD10_CP001_STA",
+        "id": "5AIH_HAD10_CP001_STA",
         "daq": {
           "restored": false,
           "enabled": false,
@@ -496,7 +496,7 @@
         "description": "Тиск в барабані №1 {CJF01}"
       },
       "5AIH_HAD10_CP001_VAL": {
-        "id": "5HAD10_CP001_VAL",
+        "id": "5AIH_HAD10_CP001_VAL",
         "daq": {
           "restored": false,
           "enabled": false,
@@ -509,7 +509,7 @@
         "description": "Тиск в барабані №1 {CJF01}"
       },
       "5AIH_HBK10_CT001_STA": {
-        "id": "5HBK10_CT001_STA",
+        "id": "5AIH_HBK10_CT001_STA",
         "daq": {
           "restored": false,
           "enabled": false,
@@ -522,7 +522,7 @@
         "description": "Температура газів в топці т.1 {CJF01}"
       },
       "5AIH_HBK10_CT001_VAL": {
-        "id": "5HBK10_CT001_VAL",
+        "id": "5AIH_HBK10_CT001_VAL",
         "daq": {
           "restored": false,
           "enabled": false,
@@ -535,7 +535,7 @@
         "description": "Температура газів в топці т.1 {CJF01}"
       },
       "5AIH_LBA10_CF001_STA": {
-        "id": "5LBA10_CF001_STA",
+        "id": "5AIH_LBA10_CF001_STA",
         "daq": {
           "restored": false,
           "enabled": false,
@@ -548,7 +548,7 @@
         "description": "Витрата пари {CJF01}"
       },
       "5AIH_LBA10_CF001_VAL": {
-        "id": "5LBA10_CF001_VAL",
+        "id": "5AIH_LBA10_CF001_VAL",
         "daq": {
           "restored": false,
           "enabled": false,
@@ -561,7 +561,7 @@
         "description": "Витрата пари {CJF01}"
       },
       "5AIH_HLA10_CP001_STA": {
-        "id": "5HLA10_CP001_STA",
+        "id": "5AIH_HLA10_CP001_STA",
         "daq": {
           "restored": false,
           "enabled": false,
@@ -574,7 +574,7 @@
         "description": "Тиск первинного повітря за ДВ-1 {CJF01}"
       },
       "5AIH_HLA10_CP001_VAL": {
-        "id": "5HLA10_CP001_VAL",
+        "id": "5AIH_HLA10_CP001_VAL",
         "daq": {
           "restored": false,
           "enabled": false,
@@ -587,7 +587,7 @@
         "description": "Тиск первинного повітря за ДВ-1 {CJF01}"
       },
       "5AIH_LAB10_CF001_STA": {
-        "id": "5LAB10_CF001_STA",
+        "id": "5AIH_LAB10_CF001_STA",
         "daq": {
           "restored": false,
           "enabled": false,
@@ -600,7 +600,7 @@
         "description": "Витрата живильної води {CJF01}"
       },
       "5AIH_LAB10_CF001_VAL": {
-        "id": "5LAB10_CF001_VAL",
+        "id": "5AIH_LAB10_CF001_VAL",
         "daq": {
           "restored": false,
           "enabled": false,
@@ -613,7 +613,7 @@
         "description": "Витрата живильної води {CJF01}"
       },
       "5AIH_HBK10_CP001_STA": {
-        "id": "5HBK10_CP001_STA",
+        "id": "5AIH_HBK10_CP001_STA",
         "daq": {
           "restored": false,
           "enabled": false,
@@ -626,7 +626,7 @@
         "description": "Розрідження №1 в топці {CJF01}"
       },
       "5AIH_HBK10_CP001_VAL": {
-        "id": "5HBK10_CP001_VAL",
+        "id": "5AIH_HBK10_CP001_VAL",
         "daq": {
           "restored": false,
           "enabled": false,
@@ -639,7 +639,7 @@
         "description": "Розрідження №1 в топці {CJF01}"
       },
       "5AIH_HNA10_CP001_STA": {
-        "id": "5HNA10_CP001_STA",
+        "id": "5AIH_HNA10_CP001_STA",
         "daq": {
           "restored": false,
           "enabled": false,
@@ -652,7 +652,7 @@
         "description": "Розрідження перед батарейним циклоном {CJF01}"
       },
       "5AIH_HNA10_CP001_VAL": {
-        "id": "5HNA10_CP001_VAL",
+        "id": "5AIH_HNA10_CP001_VAL",
         "daq": {
           "restored": false,
           "enabled": false,
@@ -665,7 +665,7 @@
         "description": "Розрідження перед батарейним циклоном {CJF01}"
       },
       "5AIH_HAD10_CL002_STA": {
-        "id": "5HAD10_CL002_STA",
+        "id": "5AIH_HAD10_CL002_STA",
         "daq": {
           "restored": false,
           "enabled": false,
@@ -678,7 +678,7 @@
         "description": "Рівень №2 в барабані котла {CJF01}"
       },
       "5AIH_HAD10_CL002_VAL": {
-        "id": "5HAD10_CL002_VAL",
+        "id": "5AIH_HAD10_CL002_VAL",
         "daq": {
           "restored": false,
           "enabled": false,
@@ -691,7 +691,7 @@
         "description": "Рівень №2 в барабані котла {CJF01}"
       },
       "5AIH_HAD10_CP002_STA": {
-        "id": "5HAD10_CP002_STA",
+        "id": "5AIH_HAD10_CP002_STA",
         "daq": {
           "restored": false,
           "enabled": false,
@@ -704,7 +704,7 @@
         "description": "Тиск в барабані №2 {CJF01}"
       },
       "5AIH_HAD10_CP002_VAL": {
-        "id": "5HAD10_CP002_VAL",
+        "id": "5AIH_HAD10_CP002_VAL",
         "daq": {
           "restored": false,
           "enabled": false,
@@ -717,7 +717,7 @@
         "description": "Тиск в барабані №2 {CJF01}"
       },
       "5AIH_HBK10_CT002_STA": {
-        "id": "5HBK10_CT002_STA",
+        "id": "5AIH_HBK10_CT002_STA",
         "daq": {
           "restored": false,
           "enabled": false,
@@ -730,7 +730,7 @@
         "description": "Температура газів в топці т.2 {CJF01}"
       },
       "5AIH_HBK10_CT002_VAL": {
-        "id": "5HBK10_CT002_VAL",
+        "id": "5AIH_HBK10_CT002_VAL",
         "daq": {
           "restored": false,
           "enabled": false,
@@ -743,7 +743,7 @@
         "description": "Температура газів в топці т.2 {CJF01}"
       },
       "5AIH_LAB10_CP001_STA": {
-        "id": "5LAB10_CP001_STA",
+        "id": "5AIH_LAB10_CP001_STA",
         "daq": {
           "restored": false,
           "enabled": false,
@@ -756,7 +756,7 @@
         "description": "Тиск живильної води перед вузлом живлення {CJF01}"
       },
       "5AIH_LAB10_CP001_VAL": {
-        "id": "5LAB10_CP001_VAL",
+        "id": "5AIH_LAB10_CP001_VAL",
         "daq": {
           "restored": false,
           "enabled": false,
@@ -769,7 +769,7 @@
         "description": "Тиск живильної води перед вузлом живлення {CJF01}"
       },
       "5AIH_HLA20_CP001_STA": {
-        "id": "5HLA20_CP001_STA",
+        "id": "5AIH_HLA20_CP001_STA",
         "daq": {
           "restored": false,
           "enabled": false,
@@ -782,7 +782,7 @@
         "description": "Тиск вторинного повітря за ДВ-2 {CJF01}"
       },
       "5AIH_HLA20_CP001_VAL": {
-        "id": "5HLA20_CP001_VAL",
+        "id": "5AIH_HLA20_CP001_VAL",
         "daq": {
           "restored": false,
           "enabled": false,
@@ -795,7 +795,7 @@
         "description": "Тиск вторинного повітря за ДВ-2 {CJF01}"
       },
       "5AIH_HLA10_CF001_STA": {
-        "id": "5HLA10_CF001_STA",
+        "id": "5AIH_HLA10_CF001_STA",
         "daq": {
           "restored": false,
           "enabled": false,
@@ -808,7 +808,7 @@
         "description": "Витрата первинного повітря {CJF01}"
       },
       "5AIH_HLA10_CF001_VAL": {
-        "id": "5HLA10_CF001_VAL",
+        "id": "5AIH_HLA10_CF001_VAL",
         "daq": {
           "restored": false,
           "enabled": false,
@@ -821,7 +821,7 @@
         "description": "Витрата первинного повітря {CJF01}"
       },
       "5AIH_HBK10_CP002_STA": {
-        "id": "5HBK10_CP002_STA",
+        "id": "5AIH_HBK10_CP002_STA",
         "daq": {
           "restored": false,
           "enabled": false,
@@ -834,7 +834,7 @@
         "description": "Розрідження №2 в топці {CJF01}"
       },
       "5AIH_HBK10_CP002_VAL": {
-        "id": "5HBK10_CP002_VAL",
+        "id": "5AIH_HBK10_CP002_VAL",
         "daq": {
           "restored": false,
           "enabled": false,
@@ -847,7 +847,7 @@
         "description": "Розрідження №2 в топці {CJF01}"
       },
       "5AIH_HNA10_CP002_STA": {
-        "id": "5HNA10_CP002_STA",
+        "id": "5AIH_HNA10_CP002_STA",
         "daq": {
           "restored": false,
           "enabled": false,
@@ -860,7 +860,7 @@
         "description": "Розрідження перед димососом {CJF01}"
       },
       "5AIH_HNA10_CP002_VAL": {
-        "id": "5HNA10_CP002_VAL",
+        "id": "5AIH_HNA10_CP002_VAL",
         "daq": {
           "restored": false,
           "enabled": false,
@@ -873,7 +873,7 @@
         "description": "Розрідження перед димососом {CJF01}"
       },
       "5AIH_HAD10_CL003_STA": {
-        "id": "5HAD10_CL003_STA",
+        "id": "5AIH_HAD10_CL003_STA",
         "daq": {
           "restored": false,
           "enabled": false,
@@ -886,7 +886,7 @@
         "description": "Рівень №3 в барабані котла {CJF01}"
       },
       "5AIH_HAD10_CL003_VAL": {
-        "id": "5HAD10_CL003_VAL",
+        "id": "5AIH_HAD10_CL003_VAL",
         "daq": {
           "restored": false,
           "enabled": false,
@@ -899,7 +899,7 @@
         "description": "Рівень №3 в барабані котла {CJF01}"
       },
       "5AIH_HBK10_CT003_STA": {
-        "id": "5HBK10_CT003_STA",
+        "id": "5AIH_HBK10_CT003_STA",
         "daq": {
           "restored": false,
           "enabled": false,
@@ -912,7 +912,7 @@
         "description": "Темп. газів перед конвективним пучком {CJF01}"
       },
       "5AIH_HBK10_CT003_VAL": {
-        "id": "5HBK10_CT003_VAL",
+        "id": "5AIH_HBK10_CT003_VAL",
         "daq": {
           "restored": false,
           "enabled": false,
@@ -925,7 +925,7 @@
         "description": "Темп. газів перед конвективним пучком {CJF01}"
       },
       "5AIH_HBK10_CT005_STA": {
-        "id": "5HBK10_CT005_STA",
+        "id": "5AIH_HBK10_CT005_STA",
         "daq": {
           "restored": false,
           "enabled": false,
@@ -938,7 +938,7 @@
         "description": "Температура газів перед економайзером {CJF01}"
       },
       "5AIH_HBK10_CT005_VAL": {
-        "id": "5HBK10_CT005_VAL",
+        "id": "5AIH_HBK10_CT005_VAL",
         "daq": {
           "restored": false,
           "enabled": false,
@@ -951,7 +951,7 @@
         "description": "Температура газів перед економайзером {CJF01}"
       },
       "5AIH_HCB01_CP001_STA": {
-        "id": "5HCB01_CP001_STA",
+        "id": "5AIH_HCB01_CP001_STA",
         "daq": {
           "restored": false,
           "enabled": false,
@@ -964,7 +964,7 @@
         "description": "Тиск стисненого повітря (повітря на обдувку) {CJF01}"
       },
       "5AIH_HCB01_CP001_VAL": {
-        "id": "5HCB01_CP001_VAL",
+        "id": "5AIH_HCB01_CP001_VAL",
         "daq": {
           "restored": false,
           "enabled": false,
@@ -977,7 +977,7 @@
         "description": "Тиск стисненого повітря (повітря на обдувку) {CJF01}"
       },
       "5AIH_REZAI_CJF01_MOD7_CH4_STA": {
-        "id": "5REZAI_CJF01_MOD7_CH4_STA",
+        "id": "5AIH_REZAI_CJF01_MOD7_CH4_STA",
         "daq": {
           "restored": false,
           "enabled": false,
@@ -990,7 +990,7 @@
         "description": "Резерв AI, рейка CJF01, модуль 7, канал 4 {CJF01}"
       },
       "5AIH_REZAI_CJF01_MOD7_CH4_VAL": {
-        "id": "5REZAI_CJF01_MOD7_CH4_VAL",
+        "id": "5AIH_REZAI_CJF01_MOD7_CH4_VAL",
         "daq": {
           "restored": false,
           "enabled": false,
@@ -1003,7 +1003,7 @@
         "description": "Резерв AI, рейка CJF01, модуль 7, канал 4 {CJF01}"
       },
       "5AIH_HAD10_AA101_POS_STA": {
-        "id": "5HAD10_AA101_POS_STA",
+        "id": "5AIH_HAD10_AA101_POS_STA",
         "daq": {
           "restored": false,
           "enabled": false,
@@ -1016,7 +1016,7 @@
         "description": "Положення РО. Клапан неперевної продувки {CJF01}"
       },
       "5AIH_HAD10_AA101_POS_VAL": {
-        "id": "5HAD10_AA101_POS_VAL",
+        "id": "5AIH_HAD10_AA101_POS_VAL",
         "daq": {
           "restored": false,
           "enabled": false,
@@ -1029,7 +1029,7 @@
         "description": "Положення РО. Клапан неперевної продувки {CJF01}"
       },
       "5AIH_LAB10_AA001_POS_STA": {
-        "id": "5LAB10_AA001_POS_STA",
+        "id": "5AIH_LAB10_AA001_POS_STA",
         "daq": {
           "restored": false,
           "enabled": false,
@@ -1042,7 +1042,7 @@
         "description": "Положення РО. Живильний клапан {CJF01}"
       },
       "5AIH_LAB10_AA001_POS_VAL": {
-        "id": "5LAB10_AA001_POS_VAL",
+        "id": "5AIH_LAB10_AA001_POS_VAL",
         "daq": {
           "restored": false,
           "enabled": false,
@@ -1055,7 +1055,7 @@
         "description": "Положення РО. Живильний клапан {CJF01}"
       },
       "5AIH_REZAI_CJF01_MOD7_CH7_STA": {
-        "id": "5REZAI_CJF01_MOD7_CH7_STA",
+        "id": "5AIH_REZAI_CJF01_MOD7_CH7_STA",
         "daq": {
           "restored": false,
           "enabled": false,
@@ -1068,7 +1068,7 @@
         "description": "Резерв AI, рейка CJF01, модуль 7, канал 7 {CJF01}"
       },
       "5AIH_REZAI_CJF01_MOD7_CH7_VAL": {
-        "id": "5REZAI_CJF01_MOD7_CH7_VAL",
+        "id": "5AIH_REZAI_CJF01_MOD7_CH7_VAL",
         "daq": {
           "restored": false,
           "enabled": false,
@@ -1081,7 +1081,7 @@
         "description": "Резерв AI, рейка CJF01, модуль 7, канал 7 {CJF01}"
       },
       "5AIH_HNC10_AF001_SPD_STA": {
-        "id": "5HNC10_AF001_SPD_STA",
+        "id": "5AIH_HNC10_AF001_SPD_STA",
         "daq": {
           "restored": false,
           "enabled": false,
@@ -1094,7 +1094,7 @@
         "description": "Положення РО. Димосос ДН1 {CJF01}"
       },
       "5AIH_HNC10_AF001_SPD_VAL": {
-        "id": "5HNC10_AF001_SPD_VAL",
+        "id": "5AIH_HNC10_AF001_SPD_VAL",
         "daq": {
           "restored": false,
           "enabled": false,
@@ -1107,7 +1107,7 @@
         "description": "Положення РО. Димосос ДН1 {CJF01}"
       },
       "5AIH_HNC10_AF001_CUR_STA": {
-        "id": "5HNC10_AF001_CUR_STA",
+        "id": "5AIH_HNC10_AF001_CUR_STA",
         "daq": {
           "restored": false,
           "enabled": false,
@@ -1120,7 +1120,7 @@
         "description": "Струм. Димосос ДН1 {CJF01}"
       },
       "5AIH_HNC10_AF001_CUR_VAL": {
-        "id": "5HNC10_AF001_CUR_VAL",
+        "id": "5AIH_HNC10_AF001_CUR_VAL",
         "daq": {
           "restored": false,
           "enabled": false,
@@ -1133,7 +1133,7 @@
         "description": "Струм. Димосос ДН1 {CJF01}"
       },
       "5AIH_HLA10_AF001_SPD_STA": {
-        "id": "5HLA10_AF001_SPD_STA",
+        "id": "5AIH_HLA10_AF001_SPD_STA",
         "daq": {
           "restored": false,
           "enabled": false,
@@ -1146,7 +1146,7 @@
         "description": "Положення РО. Вентилятор первинного дуття ДВ1 {CJF01}"
       },
       "5AIH_HLA10_AF001_SPD_VAL": {
-        "id": "5HLA10_AF001_SPD_VAL",
+        "id": "5AIH_HLA10_AF001_SPD_VAL",
         "daq": {
           "restored": false,
           "enabled": false,
@@ -1159,7 +1159,7 @@
         "description": "Положення РО. Вентилятор первинного дуття ДВ1 {CJF01}"
       },
       "5AIH_HLA10_AF001_CUR_STA": {
-        "id": "5HLA10_AF001_CUR_STA",
+        "id": "5AIH_HLA10_AF001_CUR_STA",
         "daq": {
           "restored": false,
           "enabled": false,
@@ -1172,7 +1172,7 @@
         "description": "Струм. Вентилятор первинного дуття ДВ1 {CJF01}"
       },
       "5AIH_HLA10_AF001_CUR_VAL": {
-        "id": "5HLA10_AF001_CUR_VAL",
+        "id": "5AIH_HLA10_AF001_CUR_VAL",
         "daq": {
           "restored": false,
           "enabled": false,
@@ -1185,7 +1185,7 @@
         "description": "Струм. Вентилятор первинного дуття ДВ1 {CJF01}"
       },
       "5AIH_EKG10_AN001_CUR_STA": {
-        "id": "5EKG10_AN001_CUR_STA",
+        "id": "5AIH_EKG10_AN001_CUR_STA",
         "daq": {
           "restored": false,
           "enabled": false,
@@ -1198,7 +1198,7 @@
         "description": "Струм. Вентилятор закиду палива {CJF01}"
       },
       "5AIH_EKG10_AN001_CUR_VAL": {
-        "id": "5EKG10_AN001_CUR_VAL",
+        "id": "5AIH_EKG10_AN001_CUR_VAL",
         "daq": {
           "restored": false,
           "enabled": false,
@@ -1211,7 +1211,7 @@
         "description": "Струм. Вентилятор закиду палива {CJF01}"
       },
       "5AIH_HFB11_AF001_SPD_STA": {
-        "id": "5HFB11_AF001_SPD_STA",
+        "id": "5AIH_HFB11_AF001_SPD_STA",
         "daq": {
           "restored": false,
           "enabled": false,
@@ -1224,7 +1224,7 @@
         "description": "Положення РО. Шнек подачі палива №1 {CJF01}"
       },
       "5AIH_HFB11_AF001_SPD_VAL": {
-        "id": "5HFB11_AF001_SPD_VAL",
+        "id": "5AIH_HFB11_AF001_SPD_VAL",
         "daq": {
           "restored": false,
           "enabled": false,
@@ -1237,7 +1237,7 @@
         "description": "Положення РО. Шнек подачі палива №1 {CJF01}"
       },
       "5AIH_HFB21_AF001_SPD_STA": {
-        "id": "5HFB21_AF001_SPD_STA",
+        "id": "5AIH_HFB21_AF001_SPD_STA",
         "daq": {
           "restored": false,
           "enabled": false,
@@ -1250,7 +1250,7 @@
         "description": "Положення РО. Шнек подачі палива №2 {CJF01}"
       },
       "5AIH_HFB21_AF001_SPD_VAL": {
-        "id": "5HFB21_AF001_SPD_VAL",
+        "id": "5AIH_HFB21_AF001_SPD_VAL",
         "daq": {
           "restored": false,
           "enabled": false,
@@ -1263,7 +1263,7 @@
         "description": "Положення РО. Шнек подачі палива №2 {CJF01}"
       },
       "5AIH_REZAI_CJF01_MOD8_CH7_STA": {
-        "id": "5REZAI_CJF01_MOD8_CH7_STA",
+        "id": "5AIH_REZAI_CJF01_MOD8_CH7_STA",
         "daq": {
           "restored": false,
           "enabled": false,
@@ -1276,7 +1276,7 @@
         "description": "Резерв AI, рейка CJF01, модуль 8, канал 7 {CJF01}"
       },
       "5AIH_REZAI_CJF01_MOD8_CH7_VAL": {
-        "id": "5REZAI_CJF01_MOD8_CH7_VAL",
+        "id": "5AIH_REZAI_CJF01_MOD8_CH7_VAL",
         "daq": {
           "restored": false,
           "enabled": false,
@@ -1289,7 +1289,7 @@
         "description": "Резерв AI, рейка CJF01, модуль 8, канал 7 {CJF01}"
       },
       "5AIH_HNC20_AF001_SPD_STA": {
-        "id": "5HNC20_AF001_SPD_STA",
+        "id": "5AIH_HNC20_AF001_SPD_STA",
         "daq": {
           "restored": false,
           "enabled": false,
@@ -1302,7 +1302,7 @@
         "description": "Положення РО. Димосос ДН2 {CJF01}"
       },
       "5AIH_HNC20_AF001_SPD_VAL": {
-        "id": "5HNC20_AF001_SPD_VAL",
+        "id": "5AIH_HNC20_AF001_SPD_VAL",
         "daq": {
           "restored": false,
           "enabled": false,
@@ -1315,7 +1315,7 @@
         "description": "Положення РО. Димосос ДН2 {CJF01}"
       },
       "5AIH_HNC20_AF001_CUR_STA": {
-        "id": "5HNC20_AF001_CUR_STA",
+        "id": "5AIH_HNC20_AF001_CUR_STA",
         "daq": {
           "restored": false,
           "enabled": false,
@@ -1328,7 +1328,7 @@
         "description": "Струм. Димосос ДН2 {CJF01}"
       },
       "5AIH_HNC20_AF001_CUR_VAL": {
-        "id": "5HNC20_AF001_CUR_VAL",
+        "id": "5AIH_HNC20_AF001_CUR_VAL",
         "daq": {
           "restored": false,
           "enabled": false,
@@ -1341,7 +1341,7 @@
         "description": "Струм. Димосос ДН2 {CJF01}"
       },
       "5AIH_HLA20_AF001_SPD_STA": {
-        "id": "5HLA20_AF001_SPD_STA",
+        "id": "5AIH_HLA20_AF001_SPD_STA",
         "daq": {
           "restored": false,
           "enabled": false,
@@ -1354,7 +1354,7 @@
         "description": "Положення РО. Вентилятор вторинного дуття ДВ2 {CJF01}"
       },
       "5AIH_HLA20_AF001_SPD_VAL": {
-        "id": "5HLA20_AF001_SPD_VAL",
+        "id": "5AIH_HLA20_AF001_SPD_VAL",
         "daq": {
           "restored": false,
           "enabled": false,
@@ -1367,7 +1367,7 @@
         "description": "Положення РО. Вентилятор вторинного дуття ДВ2 {CJF01}"
       },
       "5AIH_HLA20_AF001_CUR_STA": {
-        "id": "5HLA20_AF001_CUR_STA",
+        "id": "5AIH_HLA20_AF001_CUR_STA",
         "daq": {
           "restored": false,
           "enabled": false,
@@ -1380,7 +1380,7 @@
         "description": "Струм. Вентилятор вторинного дуття ДВ2 {CJF01}"
       },
       "5AIH_HLA20_AF001_CUR_VAL": {
-        "id": "5HLA20_AF001_CUR_VAL",
+        "id": "5AIH_HLA20_AF001_CUR_VAL",
         "daq": {
           "restored": false,
           "enabled": false,
@@ -1393,7 +1393,7 @@
         "description": "Струм. Вентилятор вторинного дуття ДВ2 {CJF01}"
       },
       "5AIH_HFB12_AF001_SPD_STA": {
-        "id": "5HFB12_AF001_SPD_STA",
+        "id": "5AIH_HFB12_AF001_SPD_STA",
         "daq": {
           "restored": false,
           "enabled": false,
@@ -1406,7 +1406,7 @@
         "description": "Положення РО. Транспортер подачі палива №1 {CJF01}"
       },
       "5AIH_HFB12_AF001_SPD_VAL": {
-        "id": "5HFB12_AF001_SPD_VAL",
+        "id": "5AIH_HFB12_AF001_SPD_VAL",
         "daq": {
           "restored": false,
           "enabled": false,
@@ -1419,7 +1419,7 @@
         "description": "Положення РО. Транспортер подачі палива №1 {CJF01}"
       },
       "5AIH_HFB22_AF001_SPD_STA": {
-        "id": "5HFB22_AF001_SPD_STA",
+        "id": "5AIH_HFB22_AF001_SPD_STA",
         "daq": {
           "restored": false,
           "enabled": false,
@@ -1432,7 +1432,7 @@
         "description": "Положення РО. Транспортер подачі палива №2 {CJF01}"
       },
       "5AIH_HFB22_AF001_SPD_VAL": {
-        "id": "5HFB22_AF001_SPD_VAL",
+        "id": "5AIH_HFB22_AF001_SPD_VAL",
         "daq": {
           "restored": false,
           "enabled": false,
@@ -1445,7 +1445,7 @@
         "description": "Положення РО. Транспортер подачі палива №2 {CJF01}"
       },
       "5AIH_EKG11_AF001_SPD_STA": {
-        "id": "5EKG11_AF001_SPD_STA",
+        "id": "5AIH_EKG11_AF001_SPD_STA",
         "daq": {
           "restored": false,
           "enabled": false,
@@ -1458,7 +1458,7 @@
         "description": "Положення РО. Пульсатор {CJF01}"
       },
       "5AIH_EKG11_AF001_SPD_VAL": {
-        "id": "5EKG11_AF001_SPD_VAL",
+        "id": "5AIH_EKG11_AF001_SPD_VAL",
         "daq": {
           "restored": false,
           "enabled": false,
@@ -1471,7 +1471,7 @@
         "description": "Положення РО. Пульсатор {CJF01}"
       },
       "5AIH_REZAI_CJF01_MOD9_CH7_STA": {
-        "id": "5REZAI_CJF01_MOD9_CH7_STA",
+        "id": "5AIH_REZAI_CJF01_MOD9_CH7_STA",
         "daq": {
           "restored": false,
           "enabled": false,
@@ -1484,7 +1484,7 @@
         "description": "Резерв AI, рейка CJF01, модуль 9, канал 7 {CJF01}"
       },
       "5AIH_REZAI_CJF01_MOD9_CH7_VAL": {
-        "id": "5REZAI_CJF01_MOD9_CH7_VAL",
+        "id": "5AIH_REZAI_CJF01_MOD9_CH7_VAL",
         "daq": {
           "restored": false,
           "enabled": false,
@@ -1497,7 +1497,7 @@
         "description": "Резерв AI, рейка CJF01, модуль 9, канал 7 {CJF01}"
       },
       "5AIH_LAB01_AP001_SPD_STA": {
-        "id": "5LAB01_AP001_SPD_STA",
+        "id": "5AIH_LAB01_AP001_SPD_STA",
         "daq": {
           "restored": false,
           "enabled": false,
@@ -1510,7 +1510,7 @@
         "description": "Положення РО. Живильний насос №1 {CJF01}"
       },
       "5AIH_LAB01_AP001_SPD_VAL": {
-        "id": "5LAB01_AP001_SPD_VAL",
+        "id": "5AIH_LAB01_AP001_SPD_VAL",
         "daq": {
           "restored": false,
           "enabled": false,
@@ -1523,7 +1523,7 @@
         "description": "Положення РО. Живильний насос №1 {CJF01}"
       },
       "5AIH_LAB02_AP002_SPD_STA": {
-        "id": "5LAB02_AP002_SPD_STA",
+        "id": "5AIH_LAB02_AP002_SPD_STA",
         "daq": {
           "restored": false,
           "enabled": false,
@@ -1536,7 +1536,7 @@
         "description": "Положення РО. Живильний насос №2 {CJF01}"
       },
       "5AIH_LAB02_AP002_SPD_VAL": {
-        "id": "5LAB02_AP002_SPD_VAL",
+        "id": "5AIH_LAB02_AP002_SPD_VAL",
         "daq": {
           "restored": false,
           "enabled": false,
@@ -1549,7 +1549,7 @@
         "description": "Положення РО. Живильний насос №2 {CJF01}"
       },
       "5AIH_HNC10_GT001_STA": {
-        "id": "5HNC10_GT001_STA",
+        "id": "5AIH_HNC10_GT001_STA",
         "daq": {
           "restored": false,
           "enabled": false,
@@ -1562,7 +1562,7 @@
         "description": "Вібрація підшипника №1 димососа А {CJF01}"
       },
       "5AIH_HNC10_GT001_VAL": {
-        "id": "5HNC10_GT001_VAL",
+        "id": "5AIH_HNC10_GT001_VAL",
         "daq": {
           "restored": false,
           "enabled": false,
@@ -1575,7 +1575,7 @@
         "description": "Вібрація підшипника №1 димососа А {CJF01}"
       },
       "5AIH_HNC10_GT002_STA": {
-        "id": "5HNC10_GT002_STA",
+        "id": "5AIH_HNC10_GT002_STA",
         "daq": {
           "restored": false,
           "enabled": false,
@@ -1588,7 +1588,7 @@
         "description": "Вібрація підшипника №2 димососа А {CJF01}"
       },
       "5AIH_HNC10_GT002_VAL": {
-        "id": "5HNC10_GT002_VAL",
+        "id": "5AIH_HNC10_GT002_VAL",
         "daq": {
           "restored": false,
           "enabled": false,
@@ -1601,7 +1601,7 @@
         "description": "Вібрація підшипника №2 димососа А {CJF01}"
       },
       "5AIH_HNC20_GT001_STA": {
-        "id": "5HNC20_GT001_STA",
+        "id": "5AIH_HNC20_GT001_STA",
         "daq": {
           "restored": false,
           "enabled": false,
@@ -1614,7 +1614,7 @@
         "description": "Вібрація підшипника №1 димососа B {CJF01}"
       },
       "5AIH_HNC20_GT001_VAL": {
-        "id": "5HNC20_GT001_VAL",
+        "id": "5AIH_HNC20_GT001_VAL",
         "daq": {
           "restored": false,
           "enabled": false,
@@ -1627,7 +1627,7 @@
         "description": "Вібрація підшипника №1 димососа B {CJF01}"
       },
       "5AIH_HNC20_GT002_STA": {
-        "id": "5HNC20_GT002_STA",
+        "id": "5AIH_HNC20_GT002_STA",
         "daq": {
           "restored": false,
           "enabled": false,
@@ -1640,7 +1640,7 @@
         "description": "Вібрація підшипника №2 димососа B {CJF01}"
       },
       "5AIH_HNC20_GT002_VAL": {
-        "id": "5HNC20_GT002_VAL",
+        "id": "5AIH_HNC20_GT002_VAL",
         "daq": {
           "restored": false,
           "enabled": false,
@@ -1653,7 +1653,7 @@
         "description": "Вібрація підшипника №2 димососа B {CJF01}"
       },
       "5AIH_REZAI_CJF01_MOD10_CH6_STA": {
-        "id": "5REZAI_CJF01_MOD10_CH6_STA",
+        "id": "5AIH_REZAI_CJF01_MOD10_CH6_STA",
         "daq": {
           "restored": false,
           "enabled": false,
@@ -1666,7 +1666,7 @@
         "description": "Резерв AI, рейка CJF01, модуль 10, канал 6 {CJF01}"
       },
       "5AIH_REZAI_CJF01_MOD10_CH6_VAL": {
-        "id": "5REZAI_CJF01_MOD10_CH6_VAL",
+        "id": "5AIH_REZAI_CJF01_MOD10_CH6_VAL",
         "daq": {
           "restored": false,
           "enabled": false,
@@ -1679,7 +1679,7 @@
         "description": "Резерв AI, рейка CJF01, модуль 10, канал 6 {CJF01}"
       },
       "5AIH_REZAI_CJF01_MOD10_CH7_STA": {
-        "id": "5REZAI_CJF01_MOD10_CH7_STA",
+        "id": "5AIH_REZAI_CJF01_MOD10_CH7_STA",
         "daq": {
           "restored": false,
           "enabled": false,
@@ -1692,7 +1692,7 @@
         "description": "Резерв AI, рейка CJF01, модуль 10, канал 7 {CJF01}"
       },
       "5AIH_REZAI_CJF01_MOD10_CH7_VAL": {
-        "id": "5REZAI_CJF01_MOD10_CH7_VAL",
+        "id": "5AIH_REZAI_CJF01_MOD10_CH7_VAL",
         "daq": {
           "restored": false,
           "enabled": false,
@@ -1705,7 +1705,7 @@
         "description": "Резерв AI, рейка CJF01, модуль 10, канал 7 {CJF01}"
       },
       "5AIH_NET_HFA10_CL001_STA": {
-        "id": "5NET_HFA10_CL001_STA",
+        "id": "5AIH_NET_HFA10_CL001_STA",
         "daq": {
           "restored": false,
           "enabled": false,
@@ -1718,7 +1718,7 @@
         "description": "Рівень лушпиння в бункері (мережа) {undefined}"
       },
       "5AIH_NET_HFA10_CL001_VAL": {
-        "id": "5NET_HFA10_CL001_VAL",
+        "id": "5AIH_NET_HFA10_CL001_VAL",
         "daq": {
           "restored": false,
           "enabled": false,
@@ -1731,7 +1731,7 @@
         "description": "Рівень лушпиння в бункері (мережа) {undefined}"
       },
       "5AIH_NET_HFA10_CT001_STA": {
-        "id": "5NET_HFA10_CT001_STA",
+        "id": "5AIH_NET_HFA10_CT001_STA",
         "daq": {
           "restored": false,
           "enabled": false,
@@ -1744,7 +1744,7 @@
         "description": "Температура в бункері палива (мережа) {undefined}"
       },
       "5AIH_NET_HFA10_CT001_VAL": {
-        "id": "5NET_HFA10_CT001_VAL",
+        "id": "5AIH_NET_HFA10_CT001_VAL",
         "daq": {
           "restored": false,
           "enabled": false,

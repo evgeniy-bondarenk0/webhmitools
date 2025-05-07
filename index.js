@@ -89,67 +89,82 @@ const ParseDBtoJson = function (dbfolder,jsonfolder, callback) {
 
 }
 
+class FuxaTag {
+  constructor(prefix, dbAdress) {
+    this.prefix = prefix;
+    this.dbAdress = dbAdress;
+  }
+
+  createTag(name, type, address, description) {
+    return {
+      id: name,
+      daq: {
+        restored: false,
+        enabled: false,
+        changed: false,
+        interval: 60,
+      },
+      name: name,
+      type: type,
+      address: address,
+      description: description,
+    };
+  }
+
+  createAIHTags(dbName, elements, object) {
+    const tags = {};
+    let y = -6; // Зміщення для STA
+    let u = 0; // Зміщення для VAL
+
+    for (let i = 0; i < elements.length; i++) {
+      const elementName = elements[i];
+      const description = object[dbName][elementName].descr;
+
+      // Формуємо тег AIH_STA
+      const staName = `${this.prefix}${dbName}_${elementName}_STA`;
+      const staAddress = `db${this.dbAdress.AIH}.dbw${y + 8}`;
+      tags[staName] = this.createTag(staName, "DWord", staAddress, description);
+      y += 8;
+
+      // Формуємо тег AIH_VAL
+      const valName = `${this.prefix}${dbName}_${elementName}_VAL`;
+      const valAddress = `db${this.dbAdress.AIH}.dbd${u + 8}`;
+      tags[valName] = this.createTag(valName, "Real", valAddress, description);
+      u += 8;
+    }
+
+    return tags;
+  }
+}
+
 const CreateFuxaTags = function(object){
     
-
   for (let index = 0; index < Object.keys(object).length; index++) {
-    var fuxaTag = {}
     const dbName = Object.keys(object)[index]; //Ім'я DB (для прикладу: ACTH, DIH...)
+    const fuxaTagGenerator = new FuxaTag(prefix, dbAdress); // Створюємо екземпляр класу FuxaTag
     
     switch (dbName) { // Обираємо яку DB зараз оброблюємо
       case "ACTH": 
         for (let i = 0; i < Object.keys(object[dbName]).length; i++) {
           var elements = Object.keys(object[dbName]);
             
-          fuxaTag[`${prefix}${dbName}_${elements[i]}_STA`] = {} // Формуємо назву тега для FUXA
+          //fuxaTag[`${prefix}${dbName}_${elements[i]}_STA`] = {} // Формуємо назву тега для FUXA
           
-
         }
         break;
       case "AIH":
-        var y = -6; // Зміщення для STA
-        var u = 0; // Зміщення для VAL
-
         for (let i = 0; i < Object.keys(object[dbName]).length; i++) {
           
           var elements = Object.keys(object[dbName]);
           
-          fuxaTag[`${prefix}${dbName}_${elements[i]}_STA`] = { // Формуємо тег AIH_STA
-            "id": `${prefix}${elements[i]}_STA`,
-            "daq": {
-              "restored": false,
-              "enabled": false,
-              "changed": false,
-              "interval": 60
-            },
-            "name": `${prefix}${dbName}_${elements[i]}_STA`,
-            "type": "DWord",
-            "address": adress = `db${dbAdress.AIH}.dbw${y + 8}`,
-            "description": object[dbName][elements[i]].descr
-          }
-          y=y + 8;
-          
-          fuxaTag[`${prefix}${dbName}_${elements[i]}_VAL`] = { // Формуємо тег AIH_VAL
-            "id": `${prefix}${elements[i]}_VAL`,
-            "daq": {
-              "restored": false,
-              "enabled": false,
-              "changed": false,
-              "interval": 60
-            },
-            "name": `${prefix}${dbName}_${elements[i]}_VAL`,
-            "type": "Real",
-            "address": adress = `db${dbAdress.AIH}.dbd${u + 8}`,
-            "description": object[dbName][elements[i]].descr
-          }
-          u=u + 8;
-        
+          const fuxaTag = fuxaTagGenerator.createAIHTags(dbName, elements, object); // Генеруємо теги AIH
+                    
           tags = {...tags, ...fuxaTag}; // Додаємо теги в загальний об'єкт tags
                  
         };
         break;
-        
       default:
+        console.log(`DB ${dbName} не підтримується. Перевірте назву DB.`);
         break;
         
     }
@@ -157,18 +172,6 @@ const CreateFuxaTags = function(object){
   };
 
 };
-
-
-// ParseDBtoJson(dbfolder, jsonfolder, function (objects) {
-//   // Викликаємо CreateFuxaTags і передаємо об'єкт
-//   CreateFuxaTags(objects);
-
-//   data[1].tags = tags; // Додаємо теги в загальний об'єкт data
-
-//   fs.writeFileSync('./new.json', JSON.stringify(data, null, 2), 'utf8');
-//   console.log("Оновлений data збережено у файл.");
-// });
-
 
 fs.readdir(path.join(__dirname, dbfolder), async function (err, files) {
 
@@ -198,7 +201,7 @@ fs.readdir(path.join(__dirname, dbfolder), async function (err, files) {
   data[1].tags = tags; // Додаємо теги в загальний об'єкт data
 
   fs.writeFileSync('./new.json', JSON.stringify(data, null, 2), 'utf8');
-  console.log("Оновлений data збережено у файл.");
+  console.log("Оновлений список тегів збережено у файл new.json.");
   
 });
 
